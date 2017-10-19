@@ -34,7 +34,7 @@ module.exports = {
     ]
   },
   
-  /*plugins: [
+  plugins: [
     new webpack.optimize.UglifyJsPlugin( {
       minimize : true,
       sourceMap : true,
@@ -43,6 +43,6 @@ module.exports = {
         warnings: false
       }
     } )
-  ]*/
+  ]
   
 }
