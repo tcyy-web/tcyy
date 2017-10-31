@@ -2,8 +2,8 @@
  * Created by zwwill on 2017/8/29.
  */
 import Router from 'vue-router'
-// import ViewHome from '../assets/views/home.vue'
-import ViewTest from '../assets/views/test.vue'
+import ViewEnter from '../assets/views/enter.vue'
+import ViewHome from '../assets/views/home.vue'
 // import ViewTopic from '../assets/views/topic.vue'
 // import ViewClass from '../assets/views/class.vue'
 // import ViewShop from '../assets/views/shop.vue'
@@ -15,11 +15,12 @@ Vue.use(Router)
 export default new Router({
     // mode: 'abstract',
     routes: [
-        { path: '/home', component: ViewTest },
+        { path: '/home', component: ViewHome },
         // { path: '/topic', component: ViewTopic },
         // { path: '/class', component: ViewClass },
         // { path: '/shop', component: ViewShop },
         // { path: '/my', component: ViewMy },
-        { path: '/', redirect: '/home' }
+        { path: '/enter', component: ViewEnter },
+        { path: '/', redirect: '/enter' }
     ]
 })

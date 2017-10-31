@@ -1,7 +1,7 @@
 <template>
-    <div class="app-wrapper">
+    <div class="app-wrapper" id="root">
         <router-view class="r-box"></router-view>
-        <tab-bar @tabTo="onTabTo"></tab-bar>
+        <!-- <tab-bar @tabTo="onTabTo"></tab-bar> -->
     </div>
 </template>
 <style>
@@ -29,15 +29,15 @@
 <script>
     var modal = weex.requireModule('modal');
     import util from './assets/util';
-    import tabBar from '../assets/components/tabBar.vue';
+    // import tabBar from '../assets/components/tabBar.vue';
     export default {
         data () {
             return {
             }
         },
-        components: {
-            'tab-bar': tabBar
-        },
+        // components: {
+        //     'tab-bar': tabBar
+        // },
         created () {
             util.initIconFont();
         },

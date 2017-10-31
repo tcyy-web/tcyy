@@ -34,15 +34,15 @@ module.exports = {
     ]
   },
   
-  plugins: [
-    new webpack.optimize.UglifyJsPlugin( {
-      minimize : true,
-      sourceMap : true,
-      mangle: true,
-      compress: {
-        warnings: false
-      }
-    } )
-  ]
+  // plugins: [
+  //   new webpack.optimize.UglifyJsPlugin( {
+  //     minimize : true,
+  //     sourceMap : true,
+  //     mangle: true,
+  //     compress: {
+  //       warnings: false
+  //     }
+  //   } )
+  // ]
   
 }

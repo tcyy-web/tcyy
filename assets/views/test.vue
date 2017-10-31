@@ -9,7 +9,7 @@
                 <div class="slogan">
                     <text class="i-slg iconfont">&#xe63a; 网易自营品牌</text>
                     <text class="i-slg iconfont">&#xe63a; 30天无忧退货</text>
-                    <text class="i-slg iconfont">&#xe63a; 48小时快速退款</text>
+                    <text class="i-slg iconfont">&#xe63a; 24小时快速退款</text>
                 </div>
             </div>
             <div class="cell-button">
